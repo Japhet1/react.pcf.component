@@ -58,7 +58,7 @@ export const FinancialHolding: React.FC<IFinancialHoldingProps> = (props) => {
                     </GridCell>
                     <GridCell md={12}>
                         <Pivot>
-                            <PivotItem itemKey="summary" headerText="Summary">
+                            <PivotItem itemKey="" headerText="Summary">
                                 <Summary cfh={cfh} assetsPoints={assetsPoints} liabilitiesPoints={liabilitiesPoints} />
                             </PivotItem>
                             {cfh.categories.map((category) => (

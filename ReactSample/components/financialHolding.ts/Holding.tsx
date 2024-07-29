@@ -57,6 +57,7 @@ export const Holding: React.FC<IHoldingProps> = (props) => {
         }
     ];
 
+    console.log(data)
 
     React.useEffect(() => {
         const dt = [];
@@ -66,9 +67,12 @@ export const Holding: React.FC<IHoldingProps> = (props) => {
                 value: item[`${props.alias}.mictslos_balance_base`]
             });
         });
+        
         setData(dt);
         setIsLoading(false);
     }, []);
+
+    
 
     return (
         <ListView

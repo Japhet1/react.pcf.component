@@ -113,15 +113,6 @@ export class LifeEventTable extends Table<LifeEvent>{
 // Define some static dummy data
 const staticHoldings = [
     {
-        "FH.mictslos_financialholdingcategory": "Accounts",
-        "FH.mictslos_accountingclassification": "Asset",
-        "FH_ACCOUNT.mictslos_balance_base": 5000,
-        "FH_INVESTMENT.mictslos_balance_base": 0,
-        "FH_LTSAVINGS.mictslos_balance_base": 0,
-        "FH_LOAN.mictslos_balance_base": 0,
-        "FH_LOC.mictslos_balance_base": 0,
-    },
-    {
         "FH.mictslos_financialholdingcategory": "Investments",
         "FH.mictslos_accountingclassification": "Asset",
         "FH_ACCOUNT.mictslos_balance_base": 0,
@@ -131,21 +122,21 @@ const staticHoldings = [
         "FH_LOC.mictslos_balance_base": 0,
     },
     {
-        "FH.mictslos_financialholdingcategory": "Loans",
-        "FH.mictslos_accountingclassification": "Liability",
-        "FH_ACCOUNT.mictslos_balance_base": 0,
-        "FH_INVESTMENT.mictslos_balance_base": 0,
-        "FH_LTSAVINGS.mictslos_balance_base": 0,
-        "FH_LOAN.mictslos_balance_base": 1000,
-        "FH_LOC.mictslos_balance_base": 0,
-    },
-    {
         "FH.mictslos_financialholdingcategory": "Long Term Savings",
         "FH.mictslos_accountingclassification": "Asset",
         "FH_ACCOUNT.mictslos_balance_base": 0,
         "FH_INVESTMENT.mictslos_balance_base": 0,
+        "FH_LTSAVINGS.mictslos_balance_base": 4000,
+        "FH_LOAN.mictslos_balance_base": 0,
+        "FH_LOC.mictslos_balance_base": 0,
+    },
+    {
+        "FH.mictslos_financialholdingcategory": "Accounts",
+        "FH.mictslos_accountingclassification": "Asset",
+        "FH_ACCOUNT.mictslos_balance_base": 5000,
+        "FH_INVESTMENT.mictslos_balance_base": 0,
         "FH_LTSAVINGS.mictslos_balance_base": 0,
-        "FH_LOAN.mictslos_balance_base": 1000,
+        "FH_LOAN.mictslos_balance_base": 0,
         "FH_LOC.mictslos_balance_base": 0,
     },
     {
@@ -154,9 +145,19 @@ const staticHoldings = [
         "FH_ACCOUNT.mictslos_balance_base": 0,
         "FH_INVESTMENT.mictslos_balance_base": 0,
         "FH_LTSAVINGS.mictslos_balance_base": 0,
-        "FH_LOAN.mictslos_balance_base": 1000,
+        "FH_LOAN.mictslos_balance_base": 0,
+        "FH_LOC.mictslos_balance_base": 1000,
+    },
+    {
+        "FH.mictslos_financialholdingcategory": "Loans",
+        "FH.mictslos_accountingclassification": "Liability",
+        "FH_ACCOUNT.mictslos_balance_base": 0,
+        "FH_INVESTMENT.mictslos_balance_base": 0,
+        "FH_LTSAVINGS.mictslos_balance_base": 0,
+        "FH_LOAN.mictslos_balance_base": 3000,
         "FH_LOC.mictslos_balance_base": 0,
     }
+    
 ];
 
 const staticCategories = [

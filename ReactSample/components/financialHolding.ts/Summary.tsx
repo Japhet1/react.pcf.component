@@ -17,13 +17,7 @@ export interface ISummaryProps {
 
 
 export const Summary: React.FC<ISummaryProps> = (props) => {
-    const [data, setData] = React.useState<IData[]>([
-        {
-            key: "name",
-            name: "investment",
-            value: 200
-        }
-    ])
+    const [data, setData] = React.useState<IData[]>([])
     const [isLoading, setIsLoading] = React.useState(true)
     const { assetsPoints, liabilitiesPoints } = props
 
@@ -53,8 +47,8 @@ export const Summary: React.FC<ISummaryProps> = (props) => {
         },
     ]
 
-    console.log(assetsPoints)
-    console.log(liabilitiesPoints)
+    // console.log(assetsPoints)
+    // console.log(liabilitiesPoints)
 
     React.useEffect(() => {
         const fn = async () => {
