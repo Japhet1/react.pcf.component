@@ -1,0 +1,27 @@
+[
+    {
+        "fullname": "Japhet Passah",
+        "mictslos_id": "jap001",
+        "emailaddress1": "japh@gmail.com",
+        "address1_telephone1": "0234567123",
+        "address1_city": "Madina",
+        "address1_country": "Ghana",
+        "address1_line1": "empty",
+        "address1_line2": "empty",
+        "annualincome_base": "30000",
+        "jobtitle": "Software developer",
+        "mictslos_branch": "lakeside",
+        "mictslos_bank": "UBA",
+        "gendercode": "M",
+        "mictslos_category": "Customer",
+        "mictslos_contacttype": "Individual",
+        "birthdate": "5 Feb 2000",
+        "mictslos_employersname": "MICTS",
+        "mictslos_bizoperation": "empty",
+        "mictslos_bizplaceofincorporation": "empty",
+        "mictslos_bizregistrationnumber": "empty",
+        "mictslos_bizyears": "2024",
+        "mictslos_joindate": "23 July 2021",
+        "preferredcontactmethodcode": "mobile"
+    }
+]
